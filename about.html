@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Muhammad Zain-Ul-Abdin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+
+<div class="grid-overlay" aria-hidden="true"></div>
+<div class="glow-orb glow-orb--1" aria-hidden="true"></div>
+<div class="glow-orb glow-orb--2" aria-hidden="true"></div>
+
+<div class="nav-wrap">
+  <nav class="nav">
+    <div class="nav__brand"><span class="nav__prompt">&gt;</span> <span data-nav-handle></span></div>
+    <div class="nav__links">
+      <a href="index.html" class="nav__link">root</a>
+      <a href="about.html" class="nav__link">about</a>
+      <a href="projects.html" class="nav__link">projects</a>
+      <a href="certs.html" class="nav__link">certs</a>
+      <a href="contact.html" class="nav__link">contact</a>
+    </div>
+    <div class="nav__status"><span class="nav__status-dot"></span>ONLINE &middot; SYS:SECURE</div>
+  </nav>
+</div>
+
+<main>
+  <div class="page-hero">
+    <div class="page-hero__eyebrow">cat about.txt</div>
+    <h1 class="page-hero__title">About</h1>
+    <p class="page-hero__sub">Student, builder, still figuring a lot of this out — and fine with saying so.</p>
+    <div class="mini-terminal" id="about-mini-terminal">
+      <div class="terminal__bar">
+        <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+        <span class="terminal__title">session — zsh</span>
+      </div>
+      <div class="terminal__body"></div>
+    </div>
+  </div>
+
+  <section class="section" id="about-body-section">
+    <div class="about-grid">
+      <div class="about__body" id="about-body" style="display:flex;flex-direction:column;gap:18px;color:var(--text-dim);font-size:16px;"></div>
+      <div style="display:flex;flex-direction:column;gap:20px;">
+        <div class="profile-panel reveal" id="profile-panel"></div>
+        <div class="terminal reveal" style="width:100%;">
+          <div class="terminal__bar">
+            <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+            <span class="terminal__title">current-focus.txt</span>
+          </div>
+          <div class="terminal__body" style="min-height:unset;padding:16px 18px;">
+            <div class="term-line"><span class="term-line__prompt">$ </span><span class="term-line__cmd">cat current-focus.txt</span></div>
+            <div id="focus-terminal-list" style="padding-left:18px;font-size:13px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__header">
+      <span class="section__label">echo $LEARNING_PATH</span>
+      <h2 class="section__title">Learning Trajectory</h2>
+    </div>
+    <div class="trajectory reveal" id="trajectory"></div>
+  </section>
+
+  <section class="section">
+    <div class="section__header">
+      <span class="section__label">ls ~/skills</span>
+      <h2 class="section__title">Skills & Tools</h2>
+    </div>
+    <div class="skills__grid" id="skills-grid"></div>
+  </section>
+
+  <section class="section">
+    <div class="section__header">
+      <span class="section__label">cat timeline.log</span>
+      <h2 class="section__title">Timeline</h2>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span class="footer__name" data-footer-name></span>
+  <div class="footer__links">
+    <a href="about.html">about</a>
+    <a href="projects.html">projects</a>
+    <a href="certs.html">certs</a>
+    <a href="contact.html">contact</a>
+  </div>
+  <span class="footer__note">built with a terminal in mind</span>
+  <div class="footer__status"><span class="footer__status-dot"></span>system status: operational</div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/github.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
