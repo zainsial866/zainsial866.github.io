@@ -58,7 +58,7 @@ const SITE_DATA = {
     { label: "hashnode", url: "https://hashnode.com/@iamzainsial" },
     { label: "dev.to", url: "https://dev.to/iamzsial" },
     { label: "bluesky", url: "https://bsky.app/profile/iamzsial.bsky.social" },
-    { label: "email", url: "mailto:hb422799@gmail.com" }
+    { label: "email", url: "mailto:zainsial866@gmail.com" }
   ],
 
   // Left HUD — same on every page (desktop only)
