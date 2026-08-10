@@ -54,7 +54,7 @@ const SITE_DATA = {
 
   socials: [
     { label: "github", url: "https://github.com/zainsial866" },
-    { label: "linkedin", url: "https://www.linkedin.com/in/muhammad-zain-ul-abdin-1b4073375/" },
+    { label: "linkedin", url: "https://www.linkedin.com/in/iamzsial/" },
     { label: "hashnode", url: "https://hashnode.com/@iamzainsial" },
     { label: "dev.to", url: "https://dev.to/iamzsial" },
     { label: "bluesky", url: "https://bsky.app/profile/iamzsial.bsky.social" },
