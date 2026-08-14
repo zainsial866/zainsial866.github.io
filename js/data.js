@@ -29,12 +29,12 @@ const SITE_DATA = {
 
   aboutShort: "I build and break systems to understand them. Most cloud security people don't understand Windows internals. I do. That's my advantage.",
 
-  about: [
+ about: [
     "I don't just secure cloud systems — I understand what they look like when they're compromised.",
-    "My background is in Windows Internals, reverse engineering, and low-level systems programming (C, Assembly). I've spent years taking things apart at the kernel level — writing stealth primitives, building research C2 platforms, analyzing malware. That offensive mindset is now my edge in cloud security.",
-    "Right now I'm building serverless AWS architectures with threat modeling and least-privilege IAM. I'm researching container security on EKS/ECS. I'm learning to think like an attacker escaping Lambda functions, abusing IAM roles, and exfiltrating data from 'secure' environments.",
-    "I document everything: threat models, architecture decisions, security controls, what broke and why. I write about it at Hashnode and Dev.to. I compete in CTFs. I build in the open.",
-    "If you're working in cloud security or want to understand the bridge between low-level systems and cloud architecture, I'm always up for talking shop."
+    "My foundation is in Windows Internals, reverse engineering, and low-level systems programming (C, Assembly). I've built stealth primitives, reverse-engineered malware, and designed C2 research platforms to understand how attackers operate at the kernel level. That offensive mindset is now my edge in cloud security.",
+    "Right now I'm building serverless AWS architectures with threat modeling and least-privilege IAM. I'm researching container security on EKS/ECS. I'm thinking like an attacker — escaping Lambda functions, abusing IAM roles, exfiltrating data from supposedly 'secure' environments.",
+    "I document everything I build: threat models, architecture decisions, security controls, what breaks and why. You'll find it on GitHub, Hashnode, and Dev.to. I compete in CTFs. I build in the open.",
+    "If you're working in cloud security or want to understand the bridge between low-level systems and cloud architecture, let's talk shop."
   ],
 
   skills: [
